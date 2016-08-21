@@ -1,0 +1,14 @@
+[Desktop Entry]
+Version=1.0
+Name=Add password
+Name[it]=Aggiungi password
+GenericName=Add password
+GenericName[it]=Aggiungi password
+Exec=pdf-encrypt.sh %f
+Icon=changes-prevent
+StartupNotify=false
+Terminal=false
+NoDisplay=true
+Type=Application
+Categories=Office;
+MimeType=application/pdf;
