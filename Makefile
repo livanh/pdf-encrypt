@@ -1,7 +1,12 @@
-PREFIX=/usr/local
+prefix=/usr/local
+
+all:
 
 install:
-	install -m 755 src/bin/pdf-encrypt.sh $(PREFIX)/bin
-	install -m 644 src/share/applications/pdf-encrypt.desktop $(PREFIX)/share/applications
+	mkdir -p $(DESTDIR)$(prefix)/bin
+	install -m 755 src/bin/pdf-encrypt.sh $(DESTDIR)$(prefix)/bin
+	mkdir -p $(DESTDIR)$(prefix)/share/applications
+	install -m 644 src/share/applications/pdf-encrypt.desktop $(DESTDIR)$(prefix)/share/applications
 
-.PHONY: install
+.PHONY: install all
+
