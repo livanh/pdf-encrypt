@@ -1,0 +1,16 @@
+Source: pdf-encrypt
+Maintainer: Livanh <livanh@bulletmail.org>
+Section: text
+Priority: optional
+Standards-Version: 3.9.2
+Build-Depends: debhelper (>= 9)
+
+Package: pdf-encrypt
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, qpdf, zenity|mate-dialogs
+Priority: optional
+Section: text
+Description:Script and launcher for encryption of PDF files
+ This script provides an easy way for encrypting PDF documents.
+ .
+ Just right-click you PDF file in your file manager and select "Add password" from the drop-down menu.
