@@ -1,4 +1,10 @@
-pdf-encrypt (0.1-1) UNRELEASED; urgency=low
+pdf-encrypt (0.1-2) testing; urgency=medium
+
+  * Changed email address
+
+ -- Livanh <livanh@protonmail.com>  Sat, 08 Dec 2018 13:03:32 +0100
+
+pdf-encrypt (0.1-1) testing; urgency=low
 
   * Initial release.
 
